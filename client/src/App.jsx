@@ -1,17 +1,17 @@
 import "./App.scss";
 import { Navbar } from "./components";
-// import { About, Header, Footer, Skills, Work, Blogs } from "./container";
+import { About, Header, Footer, Skills, Work, Blogs } from "./container";
 
 function App() {
   return (
     <div className="app">
       <Navbar />
-      {/* <Header />
-      <About />
+      <Header />
+      {/* <About />
       <Skills />
       <Work />
       <Blogs />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }
