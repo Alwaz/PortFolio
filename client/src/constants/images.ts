@@ -23,6 +23,13 @@ import about02 from "../assets/about02.webp";
 import about03 from "../assets/about03.webp";
 import about04 from "../assets/about04.webp";
 
+import project01 from "../assets/project01.png";
+import project02 from "../assets/project02.png";
+import project03 from "../assets/project03.png";
+import project04 from "../assets/project04.png";
+import project05 from "../assets/project05.png";
+import project06 from "../assets/project06.png";
+
 import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
 // import logo from "../assets/logo.png";
@@ -39,7 +46,6 @@ export default {
   //   email,
   //   mobile,
   //   api,
-  //   cpp,
   //   css,
   //   figma,
   //   flutter,
@@ -59,6 +65,12 @@ export default {
   about02,
   about03,
   about04,
+  project01,
+  project02,
+  project03,
+  project04,
+  project05,
+  project06,
   profile,
   circle,
   //   logo,
