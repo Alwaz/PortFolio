@@ -1,11 +1,13 @@
-import React from 'react'
-import './Skills.scss'
-const Skills = () => {
-    return (
-        <div>
-            Skills
-        </div>
-    )
-}
+import React from 'react';
+import './Skills.scss';
+import { AppWrap } from '../../wrapper';
 
-export default Skills
+const Skills: React.FC = () => {
+    return (
+        <>
+            <h2 className="head-text">Skills & Experiences</h2>
+        </>
+    );
+};
+
+export default AppWrap(Skills, 'skills');
