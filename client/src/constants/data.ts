@@ -6,6 +6,21 @@ interface About {
   imgUrl: string;
 }
 
+export const navbarItems: string[] = [
+  "home",
+  "about",
+  "work",
+  "skills",
+  "blogs",
+  "contact",
+];
+
+export const skillsArr: string[] = [
+  images.react,
+  images.redux,
+  images.typescript,
+];
+
 export const abouts: About[] = [
   {
     title: "Full Stack Developer (MERN)",

@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 import './Navbar.scss';
+import { navbarItems } from '../../constants/data';
 
 const Navbar: React.FC = () => {
     const [toggle, setToggle] = useState(false)
-    const navbarItems = ['home', 'about', 'work', 'skills', 'blogs', 'contact'];
+
 
     return (
         <nav className='app__navbar'>
