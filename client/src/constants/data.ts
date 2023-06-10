@@ -48,6 +48,21 @@ const codeLinks = {
   project06: "https://github.com/Alwaz/react-eCommerce",
 };
 
+const blogLinks = {
+  blog01:
+    "https://enlear.academy/react-hooks-how-usereducer-hook-works-e0b8532dae40",
+  blog02: "https://medium.com/@alwazkazi3/merge-sort-f0935ebf6262",
+  blog03:
+    "https://alwazkazi3.medium.com/javascript-promises-simply-explained-ec1039165615",
+  blog04: "https://medium.com/@alwazkazi3/javascript-strict-mode-81cf17a21f53",
+  blog05: "https://alwazkazi3.medium.com/linked-lists-whats-that-3819943ee8d2",
+  blog06:
+    "https://alwazkazi3.medium.com/creating-a-weather-app-using-api-javascript-4d7bb26bbc92",
+  blog07: "https://medium.com/@alwazkazi3/github-collaborations-f8dd9e9f8735",
+  blog08:
+    "https://medium.com/nerd-for-tech/how-to-modify-tuples-in-python-the-work-arounds-9213a2df21fe",
+};
+
 export const workData: WorkData[] = [
   {
     title: "Nike Store eCommerce Landing page",
@@ -134,6 +149,57 @@ export const abouts: About[] = [
     title: "Problem Solver",
     description: `I thrive on problem-solving through code, utilizing my skills to create impactful solutions.`,
     imgUrl: images.about03,
+  },
+];
+
+export const blogs = [
+  {
+    title: "React Hooks: How useReducer Hook Works",
+    description: `What is useReducer Hook and How It Works...`,
+    imgUrl: images.blog01,
+    link: blogLinks.blog01,
+  },
+  {
+    title: "Merge Sort",
+    description: `Merge sort is one of the most important sorting technique that works on Divide and...`,
+    imgUrl: images.blog02,
+    link: blogLinks.blog02,
+  },
+  {
+    title: "JavaScript “Promises” — Simply Explained",
+    description: `JavaScript promises are same as the promises we make in real life...`,
+    imgUrl: images.blog03,
+    link: blogLinks.blog03,
+  },
+  {
+    title: `JavaScript ‘Strict Mode’.`,
+    description: `Have you ever seen someone’s code and noticed ‘use strict’...`,
+    imgUrl: images.blog04,
+    link: blogLinks.blog04,
+  },
+  {
+    title: "Linked Lists — what’s that?",
+    description: `Hey Dear Readers…`,
+    imgUrl: images.blog05,
+    link: blogLinks.blog05,
+  },
+  {
+    title: `Create a Weather App (JS)`,
+    description: `This is my favorite project so far because this taught me...`,
+    imgUrl: images.blog06,
+    link: blogLinks.blog06,
+  },
+  {
+    title: `Github Collaboration`,
+    description: `Collaborating on GitHub can be hard when doing for the first time but...`,
+    imgUrl: images.blog07,
+    link: blogLinks.blog07,
+  },
+  {
+    title: `How to Modify (the imutable) tuples in Python`,
+    description: `Just like List and dictionaries Tuple is another data type in...`,
+    imgUrl: images.blog08,
+    link: blogLinks.blog08,
   },
 ];
 

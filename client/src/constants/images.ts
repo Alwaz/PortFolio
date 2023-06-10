@@ -36,13 +36,14 @@ import profile from "../assets/profile.webp";
 import circle from "../assets/circle.svg";
 // import logo from "../assets/logo.png";
 
-// import adidas from "../assets/adidas.png";
-// import amazon from "../assets/amazon.png";
-// import asus from "../assets/asus.png";
-// import bolt from "../assets/bolt.png";
-// import nb from "../assets/nb.png";
-// import skype from "../assets/skype.png";
-// import spotify from "../assets/spotify.png";
+import blog01 from "../assets/blog_one.webp";
+import blog02 from "../assets/blog_two.webp";
+import blog03 from "../assets/blog_three.jpeg";
+import blog04 from "../assets/blog_four.webp";
+import blog05 from "../assets/blog_five.webp";
+import blog06 from "../assets/blog_six.webp";
+import blog07 from "../assets/blog_seven.jpeg";
+import blog08 from "../assets/blog_eight.webp";
 
 export default {
   //   email,
@@ -79,11 +80,12 @@ export default {
   profile,
   circle,
   //   logo,
-  //   adidas,
-  //   amazon,
-  //   asus,
-  //   bolt,
-  //   nb,
-  //   skype,
-  //   spotify,
+  blog01,
+  blog02,
+  blog03,
+  blog04,
+  blog05,
+  blog06,
+  blog07,
+  blog08,
 };
