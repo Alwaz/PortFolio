@@ -6,12 +6,15 @@ interface About {
   imgUrl: string;
 }
 
-interface WorkData {
-  title: string;
-  description: string;
+interface Skills {
+  name: string;
+  bgColor?: string;
+  icon: string;
+}
+
+interface WorkData extends About {
   projectLink: string;
   codeLink: string;
-  imgUrl: string;
 }
 
 const projectLinks = {
@@ -121,4 +124,21 @@ export const abouts: About[] = [
     description: `I thrive on problem-solving through code, utilizing my skills to create impactful solutions.`,
     imgUrl: images.about03,
   },
+];
+
+export const skills: Skills[] = [
+  { name: "React", bgColor: "", icon: images.react },
+  { name: "React Native", bgColor: "", icon: images.reactnative },
+  { name: "Redux", bgColor: "", icon: images.redux },
+  { name: "JavaScript", bgColor: "", icon: images.javascript },
+  { name: "TypeScript", bgColor: "", icon: images.typescript },
+  { name: "NodeJs", bgColor: "", icon: images.node },
+  { name: "Firebase", bgColor: "", icon: images.firebase },
+  { name: "MongoDB", bgColor: "", icon: images.mongodb },
+  { name: "Git", bgColor: "", icon: images.git },
+  { name: "MUI", bgColor: "", icon: images.mu5 },
+  { name: "Saas", bgColor: "", icon: images.sass },
+  { name: "CSS", bgColor: "", icon: images.css },
+  { name: "Tailwind", bgColor: "", icon: images.tailwind },
+  { name: "Styled Components", bgColor: "", icon: images.styledcomponents },
 ];

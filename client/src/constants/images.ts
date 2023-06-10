@@ -2,21 +2,24 @@
 // import mobile from "../assets/mobile.png";
 // import api from "../assets/api.png";
 // import cpp from "../assets/cpp.png";
-// import css from "../assets/css.png";
+import css from "../assets/css.webp";
 // import figma from "../assets/figma.png";
 // import flutter from "../assets/flutter.png";
-// import git from "../assets/git.png";
+import git from "../assets/git.webp";
 // import graphql from "../assets/graphql.png";
-// import html from "../assets/html.png";
-// import javascript from "../assets/javascript.png";
-// import mu5 from "../assets/mu5.png";
+import styledcomponents from "../assets/styledcomponents.webp";
+import javascript from "../assets/javascript.webp";
+import mu5 from "../assets/mu5.webp";
 import node from "../assets/node.webp";
-// import python from "../assets/python.png";
+import tailwind from "../assets/tailwind.webp";
 import react from "../assets/react.webp";
 import redux from "../assets/redux.webp";
 import sass from "../assets/sass.webp";
 import typescript from "../assets/typescript.webp";
-// import vue from "../assets/vue.webp";
+import bootstrap from "../assets/bootstrap.webp";
+import mongodb from "../assets/mongodb.webp";
+import firebase from "../assets/firebase.webp";
+import reactnative from "../assets/reactnative.webp";
 
 import about01 from "../assets/about01.webp";
 import about02 from "../assets/about02.webp";
@@ -46,21 +49,25 @@ export default {
   //   email,
   //   mobile,
   //   api,
-  //   css,
-  //   figma,
+  css,
+  tailwind,
+  bootstrap,
   //   flutter,
-  //   git,
+  git,
   //   graphql,
   //   html,
-  //   javascript,
-  //   mu5,
+  javascript,
+  mu5,
   node,
+  mongodb,
+  firebase,
+  reactnative,
   //   python,
   react,
   redux,
   sass,
   typescript,
-  //   vue,
+  styledcomponents,
   about01,
   about02,
   about03,
