@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.scss';
-import { AppWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../wrapper';
 import { motion } from 'framer-motion';
 import { experiences, skills } from '../../constants/data';
 import { Tooltip as ReactTooltip } from "react-tooltip";
@@ -73,4 +73,8 @@ const Skills: React.FC = () => {
     );
 };
 
-export default AppWrap(Skills, 'skills');
+export default AppWrap(
+    MotionWrap(Skills, 'app__skills'),
+    'skills',
+    'app__whitebg',
+);

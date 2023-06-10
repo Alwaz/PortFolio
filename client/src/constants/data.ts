@@ -138,20 +138,24 @@ export const abouts: About[] = [
 ];
 
 export const skills: Skills[] = [
-  { name: "React", bgColor: "", icon: images.react },
-  { name: "React Native", bgColor: "", icon: images.reactnative },
-  { name: "Redux", bgColor: "", icon: images.redux },
-  { name: "JavaScript", bgColor: "", icon: images.javascript },
-  { name: "TypeScript", bgColor: "", icon: images.typescript },
-  { name: "NodeJs", bgColor: "", icon: images.node },
-  { name: "Firebase", bgColor: "", icon: images.firebase },
-  { name: "MongoDB", bgColor: "", icon: images.mongodb },
-  { name: "Git", bgColor: "", icon: images.git },
-  { name: "MUI", bgColor: "", icon: images.mu5 },
-  { name: "Saas", bgColor: "", icon: images.sass },
-  { name: "CSS", bgColor: "", icon: images.css },
-  { name: "Tailwind", bgColor: "", icon: images.tailwind },
-  { name: "Styled Components", bgColor: "", icon: images.styledcomponents },
+  { name: "React", bgColor: "#edf2f8", icon: images.react },
+  { name: "React Native", bgColor: "#edf2f8", icon: images.reactnative },
+  { name: "Redux", bgColor: "#edf2f8", icon: images.redux },
+  { name: "JavaScript", bgColor: "#edf2f8", icon: images.javascript },
+  { name: "TypeScript", bgColor: "#edf2f8", icon: images.typescript },
+  { name: "NodeJs", bgColor: "#edf2f8", icon: images.node },
+  { name: "Firebase", bgColor: "#edf2f8", icon: images.firebase },
+  { name: "MongoDB", bgColor: "#edf2f8", icon: images.mongodb },
+  { name: "Git", bgColor: "#edf2f8", icon: images.git },
+  { name: "MUI", bgColor: "#edf2f8", icon: images.mu5 },
+  { name: "Saas", bgColor: "#edf2f8", icon: images.sass },
+  { name: "CSS", bgColor: "#edf2f8", icon: images.css },
+  { name: "Tailwind", bgColor: "#edf2f8", icon: images.tailwind },
+  {
+    name: "Styled Components",
+    bgColor: "#edf2f8",
+    icon: images.styledcomponents,
+  },
 ];
 
 export const experiences: Experience[] = [
