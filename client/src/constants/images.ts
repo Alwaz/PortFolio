@@ -16,7 +16,6 @@ import react from "../assets/react.webp";
 import redux from "../assets/redux.webp";
 import sass from "../assets/sass.webp";
 import typescript from "../assets/typescript.webp";
-import bootstrap from "../assets/bootstrap.webp";
 import mongodb from "../assets/mongodb.webp";
 import firebase from "../assets/firebase.webp";
 import reactnative from "../assets/reactnative.webp";
@@ -51,7 +50,6 @@ export default {
   //   api,
   css,
   tailwind,
-  bootstrap,
   //   flutter,
   git,
   //   graphql,

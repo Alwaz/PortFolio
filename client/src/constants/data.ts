@@ -17,6 +17,17 @@ interface WorkData extends About {
   codeLink: string;
 }
 
+interface Experience {
+  year: string;
+  works: Work[];
+}
+
+interface Work {
+  name: string;
+  company: string;
+  desc: string;
+}
+
 const projectLinks = {
   project01: "https://nikestorecomerce.netlify.app/",
   project02: "https://jsjobsearching.netlify.app/",
@@ -141,4 +152,65 @@ export const skills: Skills[] = [
   { name: "CSS", bgColor: "", icon: images.css },
   { name: "Tailwind", bgColor: "", icon: images.tailwind },
   { name: "Styled Components", bgColor: "", icon: images.styledcomponents },
+];
+
+export const experiences: Experience[] = [
+  {
+    year: `May 2022 – Jun 2023`,
+    works: [
+      {
+        name: "Full Stack Software Engineer",
+        company: "Creditbook",
+        desc: `Collaborated with cross-functional teams to develop features to improve financial outcomes of entrepreneurs across the country. Additionally,
+         I streamlined company processes by creating and maintaining internal products, 
+         resulting in significant time and effort savings. Optimized our core product, ensuring seamless performance and enhanced overall 
+         user experience. Also implemented automation for the contract generation process, which led to a remarkable 99% reduction in contract generation time. Furthermore, 
+         I worked closely with the customer support team, gathering insights on reported bugs and providing timely resolutions to enhance the user experience.`,
+      },
+    ],
+  },
+  {
+    year: `Oct 2021 – Nov 2021`,
+    works: [
+      {
+        name: "Full Stack JavaScript Developer",
+        company: "DevScripts",
+        desc: `Member of the core team in an early-stage startup, I played a pivotal role in collaborating with the front-end team to develop a website for our flagship event. Leveraging my expertise in HTML, CSS, and JavaScript, I contributed to the front-end development process. By incorporating updated trends and implementing innovative features, I successfully enhanced the product, leading to a remarkable 34% increase in user acquisition.`,
+      },
+    ],
+  },
+  {
+    year: `Jul 2021 – Dec 2021`,
+    works: [
+      {
+        name: "ReactJs Developer",
+        company: "DevNation",
+        desc: `I collaborated with a team of developers to build a platform for startup DevNation.
+         utilised Redux for effective state management,
+        enhancing application performance. Integrating RESTful APIs, to fetched and handle dynamic data on the web. 
+        I tackled complex technical issues and optimized application performance using problem-solving skills. 
+        I also stayed updated with the latest React.js trends and best practices, incorporating them into our development processes.`,
+      },
+    ],
+  },
+  {
+    year: `Feb 2021 – Jun 2021`,
+    works: [
+      {
+        name: "Web Developer Fellow",
+        company: "Jadu Jobs",
+        desc: `Under the guidance of highly skilled mentors, I acquired a foundation of MERN stack. I actively collaborated with fellow developers on group projects, honing my teamwork skills and utilizing GitHub for effective version control.`,
+      },
+    ],
+  },
+  {
+    year: `Jan 2021 – Feb 2021`,
+    works: [
+      {
+        name: "Front end developer Intern",
+        company: "Interns Pakistan",
+        desc: `Through self-paced learning, I mastered the fundamentals of frontend development, including semantic HTML, CSS, and core JavaScript (ECMAScript). I also gained hands-on experience by building projects using popular frontend frameworks and libraries such as Bootstrap and jQuery.`,
+      },
+    ],
+  },
 ];
