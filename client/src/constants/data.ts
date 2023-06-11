@@ -213,6 +213,7 @@ export const skills: Skills[] = [
   { name: "Firebase", bgColor: "#edf2f8", icon: images.firebase },
   { name: "MongoDB", bgColor: "#edf2f8", icon: images.mongodb },
   { name: "Git", bgColor: "#edf2f8", icon: images.git },
+  { name: "Github", bgColor: "#edf2f8", icon: images.github },
   { name: "MUI", bgColor: "#edf2f8", icon: images.mu5 },
   { name: "Saas", bgColor: "#edf2f8", icon: images.sass },
   { name: "CSS", bgColor: "#edf2f8", icon: images.css },

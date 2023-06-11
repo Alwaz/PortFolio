@@ -6,7 +6,7 @@ import css from "../assets/css.webp";
 // import figma from "../assets/figma.png";
 // import flutter from "../assets/flutter.png";
 import git from "../assets/git.webp";
-// import graphql from "../assets/graphql.png";
+import github from "../assets/github.webp";
 import styledcomponents from "../assets/styledcomponents.webp";
 import javascript from "../assets/javascript.webp";
 import mu5 from "../assets/mu5.webp";
@@ -53,7 +53,7 @@ export default {
   tailwind,
   //   flutter,
   git,
-  //   graphql,
+  github,
   //   html,
   javascript,
   mu5,
