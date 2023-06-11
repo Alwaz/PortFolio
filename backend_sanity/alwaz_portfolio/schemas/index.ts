@@ -1,2 +1,3 @@
 import blogs from './blogs'
-export const schemaTypes = [blogs]
+import contact from './contact'
+export const schemaTypes = [blogs, contact]
