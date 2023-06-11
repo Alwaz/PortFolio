@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
+import { client } from '../../client';
 import './Footer.scss';
 const Footer = () => {
     const [formData, setFormData] = useState({ username: '', email: '', message: '' });
@@ -18,7 +19,19 @@ const Footer = () => {
 
     const handleSubmit = () => {
         setIsLoading(true);
-        console.log('formData', formData)
+        const contact = {
+            _type: 'contact',
+            name: formData.username,
+            email: formData.email,
+            message: formData.message,
+        };
+
+        client.create(contact)
+            .then(() => {
+                setIsLoading(false);
+                setIsFormSubmitted(true);
+            })
+            .catch((err) => console.log(err));
     }
 
     return (
@@ -46,7 +59,8 @@ const Footer = () => {
                         onChange={handleChangeInput}
                     />
                 </div>
-                <button type="button" className="p-text" onClick={handleSubmit}>{'Send Message'}</button>
+                <button type="button" className="p-text" onClick={handleSubmit}>{!isloading ? 'Send Message' : 'Sending...'}</button>
+
             </div>) : (
                 <div>
                     <h3 className="head-text">
