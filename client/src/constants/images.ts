@@ -1,4 +1,4 @@
-// import email from "../assets/email.png";
+import email from "../assets/email.webp";
 // import mobile from "../assets/mobile.png";
 // import api from "../assets/api.png";
 // import cpp from "../assets/cpp.png";
@@ -46,7 +46,7 @@ import blog07 from "../assets/blog_seven.jpeg";
 import blog08 from "../assets/blog_eight.webp";
 
 export default {
-  //   email,
+  email,
   //   mobile,
   //   api,
   css,

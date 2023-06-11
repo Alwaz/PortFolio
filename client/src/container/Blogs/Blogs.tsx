@@ -6,14 +6,14 @@ import '../Work/Work.scss'
 import './Blogs.scss'
 import { blogs } from '../../constants/data';
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { BsMedium } from 'react-icons/bs';
+import { FaMedium } from 'react-icons/fa'
 
 
 const Blogs = () => {
     return (
         <>
             <h2 className="head-text">Tech Blogs</h2>
-            <div className="app__profiles">
+            <div className="app__blogs">
                 {blogs.map((blog, index) => (
                     <motion.div
                         whileInView={{ opacity: 1 }}
@@ -22,26 +22,28 @@ const Blogs = () => {
                         className="app__blog-item"
                         key={blog.title + index}
                     >
-                        <div
-                            className="app__blog-img app__flex"
-                        >
-                            <img src={blog.imgUrl} alt={blog.title} />
-                            <a href={blog.link} target="_blank" rel="noreferrer">
+                        <a href={blog.link} target="_blank" rel="noreferrer">
+                            <div
+                                className="app__blog-img app__flex"
+                            >
+                                <img src={blog.imgUrl} alt={blog.title} />
+
 
                                 <motion.div
                                     whileHover={{ opacity: [0, 1] }}
                                     transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                                     className="app__blog-hover app__flex"
                                 >
-                                    <BsMedium />
+                                    <FaMedium color="white" fontSize="1.5em" />
                                 </motion.div>
-                            </a>
-                        </div>
-                        <h2 className="bold-text" style={{ marginTop: 20 }}>{blog.title}</h2>
-                        <p className="p-text" style={{ marginTop: 10 }}>{blog.description}</p>
+
+                            </div>
+                            <h2 className="bold-text" style={{ marginTop: 20 }}>{blog.title}</h2>
+                            <p className="p-text" style={{ marginTop: 10 }}>{blog.description}</p>
+                        </a>
                     </motion.div>
                 ))}
-            </div>
+            </div >
         </>
     )
 }
