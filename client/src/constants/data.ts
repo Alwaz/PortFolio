@@ -4,6 +4,7 @@ interface About {
   title: string;
   description: string;
   imgUrl: string;
+  link?: string;
 }
 
 interface Skills {
@@ -152,7 +153,7 @@ export const abouts: About[] = [
   },
 ];
 
-export const blogs = [
+export const blogs: About[] = [
   {
     title: "React Hooks: How useReducer Hook Works",
     description: `What is useReducer Hook and How It Works...`,
