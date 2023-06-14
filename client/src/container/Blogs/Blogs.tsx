@@ -26,7 +26,7 @@ const Blogs = () => {
                             <div
                                 className="app__blog-img app__flex"
                             >
-                                <img src={blog.imgUrl} alt={blog.title} />
+                                <img src={blog.imgUrl} alt={blog.title} loading='lazy' />
 
 
                                 <motion.div

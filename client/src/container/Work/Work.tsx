@@ -20,7 +20,7 @@ const Work = () => {
                         <div
                             className="app__work-img app__flex"
                         >
-                            <img src={work.imgUrl} alt={work.title} />
+                            <img src={work.imgUrl} alt={work.title} loading='lazy' />
 
                             <motion.div
                                 whileHover={{ opacity: [0, 1] }}
